@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.card {
+    height: 80vh;
+    width: 30%;
+    padding: 20px;
+    border-radius: 1rem;
+    backdrop-filter: blur(15px);
+    border: 1px solid #000;
+    background: linear-gradient(60deg,#3971ff80,#8d8b8b67);
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.card .img {
+    height: 60%;
+    font-size: 260px;
+    text-align: center;
+    color: rgb(162, 11, 144);
+}
+
+.card .msg>h1 {
+    margin: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.card .msg .text {
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
